@@ -203,7 +203,7 @@ padding:0px 30px;
     /* border: 2px solid black; */
     padding:32px;
 
-
+    
     height: 230px;
     background-color: #ef4848
 }
@@ -219,6 +219,7 @@ padding:0px 30px;
 .footer-header{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 .footercontainer p{
     padding-top: .5rem;
@@ -301,7 +302,7 @@ li{
 
 
 
-@media (max-width:450px){
+@media (max-width:500px){
     .footer-header{
         padding:1rem;
     }
