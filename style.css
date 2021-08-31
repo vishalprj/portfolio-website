@@ -304,20 +304,14 @@ li{
 
 @media (max-width:500px){
     .footer-header{
-        padding:1rem;
+        padding:0.5rem;
     }
-}
-
-@media(max-width:350px){
-    /* .social-li ul{
-        grid-template-columns:1fr;
-    } */
     .footercontainer, .footer-link, .social-li{
         margin-left: 1rem;
     }
-
-
 }
+
+
 
 
 
