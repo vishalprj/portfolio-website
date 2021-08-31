@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vishal Prajapati</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/animations.css">
 
     
     <script src="https://use.fontawesome.com/d6953d51eb.js"></script>
@@ -14,7 +15,14 @@
 <body>
   <div class="wrapper">
     <nav class="navbar">
+      <div class="overlay has-fade"></div>
+      
       <h3>Vishal Prajapati</h3>
+      <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -24,6 +32,14 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+    <div class="header__menu has-fade">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Skills</a>
+      <a href="">Portfolio</a>
+      <a href="">Contact</a>
+    </div>
+
       <div class="social-links">
         <ul>
           <li><a class="link-Symbol" href=https://www.instagram.com/vishal__prj/ target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram fa-2x"></i>
@@ -201,5 +217,7 @@
   
 
   </div>
+
+  <script src="js/main.js"></script>
   </body>
 </html>

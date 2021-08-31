@@ -11,9 +11,11 @@ html,body{
     font-family: 'Poppins', sans-serif;
  background-color: white;
  
+ 
 
 
 }
+
 
 /* utilities */
 a{
@@ -96,12 +98,16 @@ a{
 
 /* header */
 
+
+
 .header{
     max-width: 1200px;
     margin:140px auto;
     display:flex;
     justify-content: space-evenly;
 }
+
+
 
 
 .main-img img{
@@ -205,7 +211,7 @@ padding:0px 30px;
 
     
     height: 230px;
-    background-color: #ef4848
+    background-color: #ef4848;
 }
 .footercontainer,.footer-link,.social-li{
     color: white;
@@ -253,6 +259,8 @@ li{
 .project p{
     padding-bottom: 5px;
 }
+
+/* media queries */
 @media (min-width:900px){
     
     .footer-header{
@@ -267,6 +275,9 @@ li{
         
        
     }
+
+
+
 
     
 }
@@ -298,6 +309,11 @@ li{
     .social-li ul{
         grid-template-columns:1fr 1fr;
     }
+   
+   
+
+
+
 }
 
 
