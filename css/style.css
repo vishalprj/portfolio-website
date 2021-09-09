@@ -15,7 +15,9 @@ html,body{
 
 
 }
-
+.close{
+    display: none;
+}
 
 /* utilities */
 a{
@@ -35,6 +37,8 @@ a{
     top:220px;
     left:60px;
 }
+
+
 .social-links ul{
     display: flex;
     flex-direction: column;
@@ -327,8 +331,17 @@ li{
     }
 }
 
-
-
+.modal{
+    /* display: none; */
+    
+  position: fixed;
+  top: 8%;
+  left: 0;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  
+}
 
 
 

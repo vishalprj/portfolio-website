@@ -54,7 +54,7 @@ a{
     text-decoration: none;
 }
     .footer-header{
-        /* border: 2px solid black; */
+        border: 2px solid black;
         padding:32px;
         margin-top: 22rem;
     
@@ -97,10 +97,8 @@ a{
             padding-left: 7rem;
             padding-right: 7rem;
         }
-    }
-    .project{
-        margin: auto;
-    }
+    } 
+  
     .project h1{
     display: block;
     font-size: 2em;
@@ -109,8 +107,24 @@ a{
     margin: 25px;
     /* border: 3px solid black; */
     }
-    .project p{
+    .project {
+        max-width: 1000px;
+        margin: 0 auto;
         text-align: center;
+
+    }
+    
+    .button{
+            display: inline-block;
+            background-color:white;
+            color:  black;
+            padding: 1rem;
+            /* border-radius: .5rem; */
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid red;
+            border-radius: 1.5rem;
+            margin-top: 1rem;
     }
 
 
