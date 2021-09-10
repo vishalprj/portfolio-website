@@ -74,13 +74,20 @@ a{
    background-color: white;
    position: sticky;
    top:0;
-   border-bottom: 2px solid rgba(0,0,0,0.05);
+   
 
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.navbar.header-scroll{
+    box-shadow: 0 -2px 6px rgb(0 0 0 / 30%);
+}
+
+
+
 .navbar h3{
     font-size: 1.1rem;
     font-weight: 400;
@@ -332,7 +339,7 @@ li{
 }
 
 .modal{
-    /* display: none; */
+    display: none;
     
   position: fixed;
   top: 8%;

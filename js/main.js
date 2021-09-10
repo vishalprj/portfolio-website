@@ -48,3 +48,20 @@ function outsideClick(e) {
     closeModal();
   }
 }
+
+//Adding header-scroll to the navbar
+
+const headerScroll = document.querySelector(".header-scroll");
+
+window.addEventListener("scroll", addClass);
+
+// let scrollPosition = window.scrollY;
+function addClass(e) {
+  let scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 60) {
+    header.classList.add("header-scroll");
+  } else {
+    header.classList.remove("header-scroll");
+  }
+}
