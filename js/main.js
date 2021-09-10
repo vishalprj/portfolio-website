@@ -59,7 +59,7 @@ window.addEventListener("scroll", addClass);
 function addClass(e) {
   let scrollPosition = window.scrollY;
 
-  if (scrollPosition >= 60) {
+  if (scrollPosition >= 9 * (window.innerHeight / 100)) {
     header.classList.add("header-scroll");
   } else {
     header.classList.remove("header-scroll");
